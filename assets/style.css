@@ -5,6 +5,8 @@
     --pansy-purple: #82204aff;
     --rich-black-fogra-39: #030301ff;
     --olivine: #95b46aff;
+    --flex-basis-left: 0 0 15%;
+    --flex-basis-right: 0 0 85%;
 }
 
 header {
@@ -54,6 +56,8 @@ header h1 {
 
 }
 
+/* Nav Bar */
+
 .nav {
     padding-top: 1.5rem;
     margin-right: 2rem;
@@ -70,9 +74,32 @@ header h1 {
   display: inline-block;
   list-style-type: none;
   margin-left: 25px;
-text-transform: uppercase;
+  text-transform: uppercase;
 background-color:var(--pansy-purple);
 }
 
+/* About Me Section */
 
-/* Nav Bar */
+.aboutme-work {
+    display: flex;
+    flex-direction: row;
+    flex: var(--flex-basis-left);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutme-work h2 {
+    padding: 0 2rem;
+}
+
+.left-side {
+    flex: var(--flex-basis-left);
+    text-align: right;
+    align-items: center;
+}
+
+.right-side {
+    
+}
+

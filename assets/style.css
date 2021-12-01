@@ -91,6 +91,14 @@ background-color:var(--pansy-purple);
 
 .aboutme-work h2 {
     padding: 0 2rem;
+    float: left;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+#about-me {
+    
+    color: var(--rich-black-fogra-39)
 }
 
 .left-side {
@@ -100,6 +108,10 @@ background-color:var(--pansy-purple);
 }
 
 .right-side {
-    
+    margin-left: 10rem;
+    border-left: var(--pansy-purple) solid 3px;
+    font-family: 'Source Code Pro', monospace;
+     
 }
+
 

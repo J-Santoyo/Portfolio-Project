@@ -33,7 +33,7 @@ header h1 {
     height: 20rem;
     margin-bottom: 25px;
     background-size: cover;
-    background-image: url("../assets/portfolio-hero-image.jpeg");
+    background-image: url("../assets/portfolio-hero-image1.jpeg");
     position: relative;
 }
 
@@ -114,8 +114,26 @@ background-color:var(--pansy-purple);
      
 }
 
+/* Work Section */
+
 #work {
     padding-left: 3.57rem;
+}
+
+/* Contact Me Section */
+
+.conlinks {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    flex: var(--flex-basis-right);
+}
+
+.conlinks ul li {
+    display: inline-block;
+    
+    list-style-type: none;
+    text-transform: uppercase;
 }
 
 
